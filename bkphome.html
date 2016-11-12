@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Compare | Browse | Book</title>
+	<meta name="author" content="SERWINK" />
+	<meta name="description" content="MAKE YOUR OCCASION" />
+	<meta name="keywords"  content="Compare | Browse | Book" />
+	<meta name="Resource-type" content="Document" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+      
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/jquery.blurjs/0.1/blur.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/fullpage.css'?>" />
+
+	<link rel="stylesheet" type="text/css" href="<?php echo  base_url().'assets/css/examples.css'?>" />
+<style>
+ .network-name{
+       color: black;
+    padding: 45px;
+    line-height: 2;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+	.section{
+		text-align:center;
+	}
+      .navbar-default{background-color: transparent;border-color: transparent;}
+    .navbar-default .navbar-brand {color: white;}
+    .navbar-default .navbar-nav>li>a {color: white;}  
+	.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus { color: lightgrey  !important;   background-color: transparent; }
+   .nav>li>a:focus, .nav>li>a:hover{color:lightgrey !important ; background-color: transparent;}
+  
+  #tag { color:white;
+      text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;     
+    
+    }
+	#header{
+		top:0px;
+	}
+	#footer{
+		bottom:0px;
+	}
+
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+   
+ span.text-content:hover {
+  opacity: 1;
+}
+    span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;        
+  position: absolute;
+  top: 0;
+  width: 250px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+    span#text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+   
+ span#text-content:hover {
+  opacity: 1;
+}
+    span#text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 93px;
+  left: 0;        
+  position: absolute;
+  top: 0;
+  width: 750px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+	</style>
+
+	<script type="text/javascript" src="<?php echo base_url().'assets/js/fullpage.js'?>"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', 'addon','artist','event','contact'],
+				sectionsColor: ['#C63D0F', '#1BBC9B', '#7BAABE','#4BBFC3','#1BBC9B','white'],
+				css3: true
+			});
+		});
+	</script>
+	
+
+</head>
+<body>
+  <nav  role="navigation" style="background-color:whitesmoke">
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="line-height:20px;"><H2 style="MARGIN-TOP: -6PX;font-weight: 900;">Serwink </H2><p style="color: skyblue;">Make Your Occasion </p></a>
+   <hr>
+      </div>
+    <div class="collapse navbar-collapse" id="myNavbar" style=" padding: 10px;">
+    <ul class="nav navbar-nav">
+       <a href="#secondPage" data-menuanchor="secondPage" class="btn btn-default" style="    padding:8px;
+    width: 247px; margin: 10px;color:#337ab7;border-color:#337ab7;border-radius:14px">List Your Event</a>
+    
+      </ul>
+        
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" style="padding: 25px">LOGIN</a></li>
+        <li><a href="#"  style="padding: 25px">SIGNUP</a></li>
+      </ul>
+    </div>
+</nav>
+
+<div id="fullpage">
+
+	<div class="section" id="section0" style="background-image: url(<?php echo base_url().'assets/img/maxresdefault.jpg'?>);">
+       <div class="container">
+        <p style="color: white;
+    font-size:22px;">Nagpur | Banglore  | Pune | Mumbai </p>
+        <h2 style="padding: 12px;
+    color: white;
+    font-size: 50px;">Browse .Compare . Book</h2>
+        <div class="intro-message">
+          
+                      <h3 id="tag">Find your perfectly party space </h3>
+                      <HR style="width:500px;">
+                          
+            	<div class="row">
+                    
+        <div class="col-md-8 col-md-offset-2">
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <input type="text" class="form-control input-lg" placeholder="Event search" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+	</div>              
+              </div>
+                   
+                    </div>
+<div class="container" style="margin-right:-9px">
+         
+    <div class="col-md-12">
+    <div class="row" style="    margin-top: 37px;">
+    <!--
+        <div class="col-md-3"><a href="#secondPage" data-menuanchor="secondPage" class="btn btn-default"><span class="network-name">&nbsp;&nbsp;&nbsp;&nbsp;EVENT PLACES&nbsp;&nbsp;&nbsp;&nbsp;</span></a></div>
+         <div class="col-md-3"><a href="#addon"  class="btn btn-default" data-menuanchor="3rdPage" ><span class="network-name">ADDONS</span></a></div>
+         <div class="col-md-3"><a data-menuanchor="4thPage" href="#artist" class="btn btn-default"><span class="network-name">ARTISTS</span></a></div>
+        <div class="col-md-3"><a href="#event" data-menuanchor="5thPage" class="btn btn-default"><span class="network-name">&nbsp;&nbsp;&nbsp;&nbsp;build my event&nbsp;&nbsp;&nbsp;&nbsp;</span></a></div>
+        
+        -->
+        <div class="col-md-4" style="border:none; height:150px; width:250px;background-image: url(<?php echo base_url().'assets/img/lawn.jpg'?>);">  <span class="text-content"><span>EVENT PLACES</span></span></div>
+        <div class="col-md-4"style="border:none; height:150px;width:250px;background-image: url(<?php echo base_url().'assets/img/artist.jpeg'?>);"><span class="text-content"><span>ARTISTS</span></span>></div>
+        <div class="col-md-4" style="border:none; height:150px;width:250px;background-image: url(<?php echo base_url().'assets/img/gril1.jpg'?>);"><span class="text-content"><span>ADDONS</span></span></div>
+    </div>
+        <div class="col-md-7" style="border:none; height: 93px;width: 750px;margin-left: -14px;background-image: url(<?php echo base_url().'assets/img/cities.jpg'?>);">
+          <span id="text-content"><span>MAKE MY EVENT</span></span></div>
+        
+        </div>
+         </div>
+        </div>
+	<div class="section " id="section1">
+     <div class="container">
+        <div class="col-md-12">
+         <div class="col-md-4" style="border:solid">
+             <img src="<?php echo base_url().'assets/img/dalchini.jpg'?>">
+        
+             
+            </div>
+         <div class="col-md-4">asdasd
+            </div>
+         <div class="col-md-4">asdsa
+            </div>
+         
+         
+         </div>
+        
+        </div>
+            
+</div> 
+    
+        
+
+	</div>
+    	<div class="section fp-auto-height" id="section2">
+    <div class="container">
+
+              <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading"><h1>ADDONS</h1>
+                        <br>Fast confirmations. Handpicked artists. Best prices.</h2>
+                    <p class="lead">
+                    <br>Choose from our various artist collections- celeb, platinum, gold, silver.</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/doge.png" alt="">
+                </div>
+            </div>
+
+        </div>
+	</div>
+	<div class="section fp-auto-height" id="section3">
+	  <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <img class="img-responsive" src="img/doge.png" alt=""> 
+                   
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading"><h1>Talented Artists.</h1>
+                        <br>Fast confirmations. Handpicked artists. Best prices.</h2>
+                    <p class="lead">
+                    <br>Choose from our various artist collections- celeb, platinum, gold, silver.</p>
+                </div>
+            </div>
+
+        </div>
+	</div>
+  	<div class="section " id="section4">
+	  <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading"><h1>Build My event</h1>
+                        <br>Fast confirmations. Handpicked artists. Best prices.</h2>
+                    <p class="lead">
+                    <br>Choose from our various artist collections- celeb, platinum, gold, silver.</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/doge.png" alt="">
+                </div>
+            </div>
+
+        </div>
+	</div>
+         	<div class="section fp-auto-height" id="section5">
+          <div class="baner" style="background-color:#282C35; padding:25px">
+                 <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                  <h1>Connect with Serwink</h1>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> Twitter</a>
+                        </li>
+                        <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> Facebook</a> </li>
+                        
+                        <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i>Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+                </br>
+                <br/>
+                <HR style="width:500px;">
+                       <ul class="list-inline">
+                        <li><a href="#home">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#services">Services</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                     <p class="small" style="color:white">Copyright &copy; Serwink 2016. All Rights Reserved</p>
+            </div>
+              
+               
+                   
+            
+        </div>
+        </div>
+            <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+               
+                    <p class="small">Copyright &copy; Serwink 2016. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+           
+           </div>
+  
+</div>
+
+<script>
+    $(document).ready( function() {
+    $('#section0').blurjs({
+        source: '#section0',
+        radius:5,
+        overlay: 'rgba(0, 0, 0, .2)'
+    });
+});
+    </script>
+</body>
+</html>

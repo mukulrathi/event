@@ -1,0 +1,33 @@
+#hiderow,
+.delete {
+  display: none;
+}
+@media print {
+    #printbtn {
+        display :  none;
+    }
+}
+body {
+  counter-reset: chapternum figurenum;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  line-height: 1.5;
+  font-size: 11pt;
+}
+@page :left {
+  margin-left:5cm;
+}
+@page :blank {
+  @top-center { content: "This page is intentionally left blank." }
+}
+@page 
+    {
+        size:  auto;   /* auto is the initial value */
+        margin: 0mm;  /* this affects the margin in the printer settings */
+    }
+
+    html
+    {
+        background-color: #FFFFFF; 
+        margin-top: 10px;
+        padding: 10px  /* this affects the margin on the html before sending to printer */
+    }

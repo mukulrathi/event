@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Compare | Browse | Book</title>
+	<meta name="author" content="SERWINK" />
+	<meta name="description" content="MAKE YOUR OCCASION" />
+	<meta name="keywords"  content="Compare | Browse | Book" />
+	<meta name="Resource-type" content="Document" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+      
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/jquery.blurjs/0.1/blur.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/fullpage.css'?>" />
+
+	<link rel="stylesheet" type="text/css" href="<?php echo  base_url().'assets/css/examples.css'?>" />
+
+<link rel="stylesheet" type="text/css" href="<?php echo  base_url().'assets/css/custume.css'?>" />
+
+	<script type="text/javascript" src="<?php echo base_url().'assets/js/fullpage.js'?>"></script>
+</head>
+<body>
+  <nav  role="navigation" style="background-color:black">
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="line-height:14px;"><img src="assets/img/logo.png" class="img-responsive"></a>
+      </div>
+    <div class="collapse navbar-collapse" id="myNavbar" style=" padding: 10px;">
+    <ul class="nav navbar-nav">
+       <a href="#secondPage" data-menuanchor="secondPage" class="btn btn-default list">List Your Event</a>
+    
+      </ul>
+        
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" style="padding: 25px; color:white">LOGIN</a></li>
+        <li><a href="#"  style="padding: 25px;color:white">SIGNUP</a></li>
+      </ul>
+    </div>
+</nav>
+
+<div id="fullpage">
+
+	<div class="section" id="section0" style="background-image: url(<?php echo base_url().'assets/img/maxresdefault.jpg'?>);">
+       <div class="container">
+        <p style="color: white;
+    font-size:22px;">Nagpur | Banglore  | Pune | Mumbai </p>
+        <h2 style="padding: 12px; color: white;font-size: 27px;">Browse.Compare.Book</h2>
+        <div class="intro-message">
+          
+                      <h3 id="tag">Find your perfectly party space </h3>
+                      <HR/>
+                          
+            	<div class="row">
+                    
+        <div class="col-md-8 col-md-offset-2">
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <input type="text" class="form-control input-lg" placeholder="Event search" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+	</div>              
+          
+                   
+<div class="container" style="width:auto;">
+         
+    <div class="col-md-12">
+    <div class="row" style=" margin-top: 37px;">
+        <div class="col-md-4" style="border:none; height:150px; width:250px;background-image: url(<?php echo base_url().'assets/img/lawn.jpg'?>);">  <span class="text-content"><span>EVENT PLACES</span></span></div>
+        <div class="col-md-4"style="border:none; height:150px;width:250px;background-image: url(<?php echo base_url().'assets/img/artist.jpeg'?>);"><span class="text-content"><span>ARTISTS</span></span>></div>
+        <div class="col-md-4" style="border:none; height:150px;width:250px;background-image: url(<?php echo base_url().'assets/img/gril1.jpg'?>);"><span class="text-content"><span>ADDONS</span></span></div>
+        <div class="col-md-4" style="border:none; height: 150px;width: 250px;background-image: url(<?php echo base_url().'assets/img/cities-for-millennials-1080x675.jpg'?>);">
+          <span class="text-content"><span>MAKE MY EVENT</span></span></div>
+    </div>
+    </div>
+
+         </div>
+           </div>
+           </div>
+        </div>
+	<div class="section " id="section1" style="background-color:#1BBC9B">
+     <div class="container" style="padding: 27px;">    
+        <div class="col-md-12">
+         <div class="col-md-4" style="height:300px">
+             
+             <img class="img-thumbnail" style="padding:18px" src="<?php echo  base_url().'assets/img/dalchini.jpg'?>">
+              <hr>
+               <a class="btn btn-primary btn-outline">Book Now >></a>
+             
+            </div>
+           <div class="col-md-4" style="height:300px">
+             
+             <img class="img-thumbnail" style="padding:18px"  src="<?php echo  base_url().'assets/img/fiona3.jpg'?>">
+            <hr>
+               <a class="btn btn-primary btn-outline">Book Now >></a>
+             
+            </div>
+           <div class="col-md-4" style="height:300px">
+             
+             <img class="img-thumbnail" style="padding:18px"  src="<?php echo  base_url().'assets/img/gril1.jpg'?>">
+              <hr>
+               <a class="btn btn-primary btn-outline">Book Now >></a>
+             
+            </div>
+         
+         
+         </div>
+        <hr>
+        
+        </div>
+         <div>
+   <div class="row">
+             <div id="rect" style="background-color: white;
+    padding: 100px;">
+                 <h2 style="font-family:arial"> Great minds discuss ideas; average minds discuss events; small minds discuss people.</h2>
+            
+             </div>
+             
+             </div>       
+          
+            
+           
+                
+               <div class="col-md-12">
+                      
+                   <div class="row"  style="background-color:whitesmoke;">
+                        <h3>OUR  TIE UPS</h3>
+  <div class="col-md-3"><img  class="img-thumbnail" src="<?php echo  base_url().'assets/img/dalchini.jpg'?>"></div>
+  <div class="col-md-3"><img  class="img-thumbnail" src="<?php echo  base_url().'assets/img/dalchini.jpg'?>"></div>
+ <div class="col-md-3"><img   class="img-thumbnail" src="<?php echo  base_url().'assets/img/dalchini.jpg'?>"></div>
+  <div class="col-md-3"><img   class="img-thumbnail" src="<?php echo  base_url().'assets/img/dalchini.jpg'?>"></div>
+                       <hr>
+</div>                      
+ </div>       
+  
+             
+             
+             
+         </div>
+            
+</div> 
+    
+
+
+
+         	<div class="section fp-auto-height" id="section5">
+          <div class="baner" style="background-color:#282C35; padding:35px">
+                 <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                  <h1>Connect with Serwink</h1>
+                </div>
+                <div class="col-lg-6"  style="padding:10px;">
+                    <ul class="list-inline banner-social-buttons">
+                        <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> Twitter</a>
+                        </li>
+                        <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> Facebook</a> </li>
+                        
+                        <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i>Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+                </br>
+                <br/>
+                <HR>
+                       <ul class="list-inline">
+                        <li><a href="#home">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#services">Services</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                     <p class="big" style="color:white">Copyright &copy; Serwink 2016. All Rights Reserved</p>
+            </div>
+              
+               
+                   
+            
+        </div>
+        </div>
+            
+           
+           </div>
+    </div>
+</body>
+</html>
